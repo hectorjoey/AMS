@@ -13,7 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
-@CrossOrigin(origins = {"http://localhost:3000/"})
+@CrossOrigin(origins = "https://asset-inventory.netlify.app")
+//@CrossOrigin(origins = {"http://localhost:3000/"})
 @Controller
 @RequestMapping({"api/v1/"})
 @RequiredArgsConstructor

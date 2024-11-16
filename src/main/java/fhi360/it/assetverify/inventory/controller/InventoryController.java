@@ -34,7 +34,8 @@ import java.util.List;
 import java.util.Map;
 
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://asset-inventory.netlify.app")
+//@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/v1/")
 public class InventoryController {
